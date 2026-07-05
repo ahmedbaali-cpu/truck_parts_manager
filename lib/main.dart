@@ -63,7 +63,6 @@ class TruckPartsApp extends StatelessWidget {
                 ),
                 fontFamily: 'Segoe UI',
               ),
-              // Fixed: Removed 'const' because dynamic theme/locale state will downstream into here
               home: DashboardShell(),
             );
           },
